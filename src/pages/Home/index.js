@@ -1,9 +1,13 @@
 import './styles.css';
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 function Home() {
   return (
-    <div className="Home">
-      <h1>Hello World</h1>
+    <div className='container-home'>
+      <Header />
+      <Footer />
+
     </div>
   );
 }
