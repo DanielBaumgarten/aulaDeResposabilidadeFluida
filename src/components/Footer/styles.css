@@ -7,17 +7,13 @@ footer {
     margin-top: 80px;
     padding: 0 32px;
 }
+
 .footer-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 640px;
     height: 200px;
     border-right: 1px solid gray
-}
-
-.footer-left p {
-    width: 640px;
 }
 
 .footer-left img {
@@ -26,6 +22,9 @@ footer {
 }
 
 .footer-rigth{
-    width: 1280px;
     padding-left: 20px;
+}
+
+.footer-right p {
+    width: 1280px;
 }
