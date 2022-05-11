@@ -12,3 +12,23 @@
 .menu li:hover {
     color: #FED530
 }
+
+.icon-menu, .icon-close{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+@media (max-width: 540px){
+    .icon-menu, .icon-close {
+        display: block;
+        width: 35px;
+        right: 1rem;
+    }
+    .icon-menu {
+        top: 3.5rem;
+    }
+    .icon-close {
+        top: 3rem;
+    }
+}
